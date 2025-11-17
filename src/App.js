@@ -1,11 +1,7 @@
-import "./App.css";
+import Body from "./components/Body";
 
 const App = () => {
-  return (
-    <div className="text-center text-3xl font-bold text-red-500">
-      Namaste Everyone, Lets build Flix-GPT
-    </div>
-  );
+  return <Body />;
 };
 
 export default App;
